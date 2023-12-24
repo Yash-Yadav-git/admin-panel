@@ -1,0 +1,85 @@
+.header-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  gap: 30px;
+}
+
+.total-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 28px;
+}
+.total-search span {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.search-container input {
+  padding: 7.5px;
+  width: 200px;
+  height: 30px; 
+  text-align: center;
+  border: 3.1px solid;
+  border-radius: 20px;
+}
+input::placeholder {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  gap: 50px;
+}
+
+.filters div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.filters input {
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  text-decoration: none;
+  width: 200px;
+  font-size: 18px;
+}
+
+.filters select {
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    text-decoration: none;
+    width: 200px;
+    gap: 20px;
+    font-size: 18px;
+  }
+
+.filters label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  font-size: 24px;
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
