@@ -7,14 +7,6 @@ export const columns = [
   {label: "BANK", value: "bank"},
   {label: "REQUESTED BY (EMPLOYEE CODE)", value: "requestedBy"},
   {label: "STATUS", value: "status"},
-    // "ID",
-    // "DATE",
-    // "BRANCH",
-    // "TYPE",
-    // "AMOUNT",
-    // "BANK",
-    // "REQUESTED BY(EMPLOYEE CODE)",
-    // "STATUS",
   ];
 
 export const transactionsData = [
